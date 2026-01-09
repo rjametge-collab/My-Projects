@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <header>
+            <h1>Weather Forecast for you</h1>
+            <p>Please enter a city to see the 3 days forecast</p>
+        </header>
+
+        <form id="weatherForm">
+            <input type="text" id="cityInput" placeholder="e.g. London, Tokyo." required>
+            <button type="submit">Get your Forecast</button>
+        </form>
+
+    <div id="errorMessage" class="error hidden">Please enter a valid city name</div>
+
+        <div id="resultsContainer" class="results-grid">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
