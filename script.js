@@ -14,7 +14,7 @@ document.getElementById('weatherForm').addEventListener('submit', function(e) {
 
     errorDiv.classList.add('hidden');
     
-    // 2. Simulated Data
+ 
     const mockForecast = [
         { day: 'Tomorrow', temp: '22°C', condition: '☀️ Sunny' },
         { day: 'Tuesday', temp: '18°C', condition: '☁️ Cloudy' },
